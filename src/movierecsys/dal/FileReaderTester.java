@@ -42,11 +42,11 @@ public class FileReaderTester
         }
         System.out.println("Movie count: " + allMovs.size());
 
-        UserDAO userDao = new UserDAO();
-        List<User> allUsers = userDao.getAllUsers();
-        for (User allUse : allUsers)
+        UserDAO userDAO = new UserDAO();
+        List<User> allUsers = userDAO.getAllUsers();
+        for (User allUser : allUsers)
         {
-            System.out.println(allUse.getName());
+            System.out.println(allUser.getId());
         }
         System.out.println("User count: " + allUsers.size());
     }

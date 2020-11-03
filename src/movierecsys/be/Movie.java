@@ -5,10 +5,6 @@
  */
 package movierecsys.be;
 
-/**
- *
- * @author pgn
- */
 public class Movie
 {
 
