@@ -41,7 +41,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/.jdks/javafx-sdk-15/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.jdks/junit-4.13.1.jar" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -61,11 +61,11 @@
       </method>
     </configuration>
     <configuration name="Netflix Project" type="Application" factoryName="Application">
-      <option name="ALTERNATIVE_JRE_PATH" value="15" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="movierecsys.OwsMain" />
       <module name="Netflix Project" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files (x86)\Java\javafx-sdk-15\lib  &quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\marcg\.jdks\javafx-sdk-15.0.1\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="movierecsys.*" />
@@ -76,13 +76,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatingTest.testGetMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RatingTest.testGetMovie" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Netflix Project" />
       <extension name="coverage">
         <pattern>
@@ -157,11 +159,6 @@
       <item itemvalue="JUnit.RatingTest.testConstructor" />
       <item itemvalue="JUnit.RatingTest.testGetMovie" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.RatingTest.testGetMovie" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -173,6 +170,7 @@
       <updated>1604392483093</updated>
       <workItem from="1604392485038" duration="858000" />
       <workItem from="1604393876441" duration="1508000" />
+      <workItem from="1604421224086" duration="5897000" />
     </task>
     <servers />
   </component>
@@ -192,65 +190,88 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604397988044">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="440" y="94" key="#Project_Structure" timestamp="1604421585460">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604421585460" />
+    <state x="279" y="85" width="1362" height="950" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604421681876">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604397988044" />
+    <state x="279" y="85" width="1362" height="950" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604421681876" />
     <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604393948857" />
     <state x="503" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604400781077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="503" y="279" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.824@0.0.1536.824" timestamp="1604400781077" />
-    <state x="473" y="153" key="FileChooserDialogImpl" timestamp="1604398022545">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="591" y="193" key="FileChooserDialogImpl" timestamp="1604435353966">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="473" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604398022545" />
+    <state x="591" y="193" key="FileChooserDialogImpl/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604435353966" />
     <state x="591" y="193" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604393972970" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604401060039">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604437447826">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604401060039" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437447826" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184720" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604401060039">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604437447826">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604401060039" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437447826" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184719" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604401060038">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604437447826">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604401060038" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437447826" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184719" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604401060039">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604437447826">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604401060039" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437447826" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184720" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604401060028">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1604437190929">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604401060028" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1604401060027">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437190929" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1604437190928">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604401060027" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1604401060027">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437190928" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1604437190928">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604401060027" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1604401060027">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437190928" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1604437190929">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604401060027" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1604400849467">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604437190929" />
+    <state x="540" y="262" key="IDE.errors.dialog" timestamp="1604422416940">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="262" key="IDE.errors.dialog/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604422416940" />
+    <state x="311" y="0" key="SettingsEditor" timestamp="1604422027745">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604400849467" />
+    <state x="311" y="0" key="SettingsEditor/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604422027745" />
     <state x="311" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604393975811" />
     <state x="623" y="384" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604393997694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1604392921096" />
     <state x="623" y="384" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1604393997694" />
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1604436631939">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="803" y="277" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1920.10.1920.1040@0.0.1920.1040" timestamp="1604436631939" />
   </component>
 </project>

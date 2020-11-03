@@ -27,6 +27,7 @@ public class UserDAO
         List<User> allUsers = new ArrayList<>();
         File file = new File(USER_SOURCE);
 
+        // this works
         try (BufferedReader reader = new BufferedReader(new FileReader(file)))
         {
             String line;
@@ -34,12 +35,11 @@ public class UserDAO
             {
                 try
                 {
-                    User use = stringArrayToUser(line);
-                    allUsers.add(use);
+                    User name = stringArrayToUser(line);
+                    allUsers.add(name);
                 } catch (Exception ex)
                 {
-                    //Do nothing we simply do not accept malformed lines of data.
-                    //In a perfect world you should at least log the incident.
+
                 }
             }
         }
@@ -50,10 +50,9 @@ public class UserDAO
     {
         String[] arrUser = t.split(",");
         String name = arrUser[0];
-        int id = Integer.parseInt(arrUser[1]);
 
-        User use = new User(id, name);
-        return use;
+        User allUsers = new User(name);
+        return allUsers;
     }
     /**
      * Gets a single User by its ID.

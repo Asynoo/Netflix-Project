@@ -45,8 +45,7 @@ public class MovieDAO
                     allMovies.add(mov);
                 } catch (Exception ex)
                 {
-                    //Do nothing we simply do not accept malformed lines of data.
-                    //In a perfect world you should at least log the incident.
+
                 }
             }
         }
