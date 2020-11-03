@@ -17,6 +17,7 @@ import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Stream;
 import movierecsys.be.Movie;
+import movierecsys.be.User;
 
 /**
  *
@@ -41,6 +42,17 @@ public class FileReaderTester
         }
         System.out.println("Movie count: " + allMovs.size());
     }
+/**
+ * For users
+ *
+    UserDAO userDAO = new UserDAO();
+    List<User> allUsers = userDAO.getAllUsers();
+        for (User allUser : allUsers)
+    {
+        System.out.println(allUser.getId());
+    }
+        System.out.println("User: " + allUsers.size());
+*/
 
    
 }

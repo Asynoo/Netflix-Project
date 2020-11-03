@@ -41,18 +41,31 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TicTacToe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files (x86)/Java/javafx-sdk-15/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FileReaderTester">
+    <configuration name="FileReaderTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="movierecsys.dal.FileReaderTester" />
+      <module name="Netflix Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="movierecsys.dal.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Netflix Project" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="15" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="movierecsys.OwsMain" />
       <module name="Netflix Project" />
-      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\Marco\.jdks\openjdk-15\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files (x86)\Java\javafx-sdk-15\lib  &quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="movierecsys.*" />
@@ -63,17 +76,98 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MovieSearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Netflix Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="movierecsys.bll.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="movierecsys.bll.util" />
+      <option name="MAIN_CLASS_NAME" value="movierecsys.bll.util.MovieSearcherTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RatingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Netflix Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="movierecsys.be.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="movierecsys.be" />
+      <option name="MAIN_CLASS_NAME" value="movierecsys.be.RatingTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Netflix Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="movierecsys.be.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="movierecsys.be" />
+      <option name="MAIN_CLASS_NAME" value="movierecsys.be.RatingTest" />
+      <option name="METHOD_NAME" value="testConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RatingTest.testGetMovie" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Netflix Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="movierecsys.be.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="movierecsys.be" />
+      <option name="MAIN_CLASS_NAME" value="movierecsys.be.RatingTest" />
+      <option name="METHOD_NAME" value="testGetMovie" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Netflix Project" />
+      <item itemvalue="Application.FileReaderTester" />
+      <item itemvalue="JUnit.RatingTest" />
+      <item itemvalue="JUnit.MovieSearcherTest" />
+      <item itemvalue="JUnit.RatingTest.testConstructor" />
+      <item itemvalue="JUnit.RatingTest.testGetMovie" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.FileReaderTester" />
+        <item itemvalue="JUnit.RatingTest.testGetMovie" />
+        <item itemvalue="JUnit.RatingTest.testConstructor" />
+        <item itemvalue="JUnit.MovieSearcherTest" />
+        <item itemvalue="JUnit.RatingTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -84,6 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604392483093</updated>
       <workItem from="1604392485038" duration="858000" />
+      <workItem from="1604393876441" duration="1508000" />
     </task>
     <servers />
   </component>
@@ -100,32 +195,39 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604392892846">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="279" y="85" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604393948857">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604392892846" />
-    <state x="473" y="153" key="FileChooserDialogImpl" timestamp="1604392759202">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604393948857" />
+    <state x="591" y="193" key="FileChooserDialogImpl" timestamp="1604393972970">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="473" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604392759202" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1604392942122">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="591" y="193" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604393972970" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1604395184720">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604392942122" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1604392942122">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184720" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1604395184719">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604392942122" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1604392942122">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184719" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1604395184719">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604392942122" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1604392942122">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184719" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1604395184720">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604392942122" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184720" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604392942123">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -142,13 +244,15 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604392942123" />
-    <state x="249" y="0" key="SettingsEditor" timestamp="1604392601243">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="311" y="0" key="SettingsEditor" timestamp="1604393975811">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604392601243" />
-    <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604392921096">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="311" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604393975811" />
+    <state x="623" y="384" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604393997694">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="498" y="304" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1536.824@0.0.1536.824" timestamp="1604392921096" />
+    <state x="623" y="384" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1604393997694" />
   </component>
 </project>
