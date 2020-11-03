@@ -41,13 +41,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../Program Files (x86)/Java/javafx-sdk-15/lib" />
+    <property name="last_opened_file_path" value="$USER_HOME$/.jdks/javafx-sdk-15/lib" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.FileReaderTester">
-    <configuration name="FileReaderTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FileReaderTester" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="movierecsys.dal.FileReaderTester" />
       <module name="Netflix Project" />
       <extension name="coverage">
@@ -87,7 +87,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MovieSearcherTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MovieSearcherTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Netflix Project" />
       <extension name="coverage">
         <pattern>
@@ -102,7 +102,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RatingTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Netflix Project" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RatingTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RatingTest.testConstructor" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Netflix Project" />
       <extension name="coverage">
         <pattern>
@@ -159,11 +159,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FileReaderTester" />
         <item itemvalue="JUnit.RatingTest.testGetMovie" />
-        <item itemvalue="JUnit.RatingTest.testConstructor" />
-        <item itemvalue="JUnit.MovieSearcherTest" />
-        <item itemvalue="JUnit.RatingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -196,35 +192,35 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="279" y="85" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604393948857">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604397988044">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604392892846" />
+    <state x="223" y="67" width="1089" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604397988044" />
     <state x="279" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1604393948857" />
-    <state x="591" y="193" key="FileChooserDialogImpl" timestamp="1604393972970">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="473" y="153" key="FileChooserDialogImpl" timestamp="1604398022545">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="473" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604392759202" />
+    <state x="473" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604398022545" />
     <state x="591" y="193" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604393972970" />
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604395475202">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604399943594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604395475202" />
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604399943594" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184720" />
-    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604395475201">
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604399943594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604395475201" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604399943594" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184719" />
-    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604395475201">
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604399943594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604395475201" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604399943594" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184719" />
-    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604395475202">
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604399943594">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604395475202" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604399943594" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604395184720" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1604392942123">
       <screen x="0" y="0" width="1536" height="824" />
@@ -242,10 +238,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604392942123" />
-    <state x="311" y="0" key="SettingsEditor" timestamp="1604393975811">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1604398027946">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604392601243" />
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604398027946" />
     <state x="311" y="0" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604393975811" />
     <state x="623" y="384" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604393997694">
       <screen x="0" y="0" width="1920" height="1040" />

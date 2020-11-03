@@ -26,7 +26,6 @@ public class User
         this.id = id;
         this.name = name;
     }
-
     /**
      * Sets the user name to a new one
      *
