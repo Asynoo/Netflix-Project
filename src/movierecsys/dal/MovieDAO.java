@@ -10,6 +10,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.List;
 import movierecsys.be.Movie;
@@ -32,12 +33,11 @@ public class MovieDAO
     public List<Movie> getAllMovies() throws FileNotFoundException, IOException
     {
         List<Movie> allMovies = new ArrayList<>();
-        File file = new File(MOVIE_SOURCE);
 
-        try (BufferedReader reader = new BufferedReader(new FileReader(file)))
+        try (BufferedReader reader = new BufferedReader(new FileReader(new File(MOVIE_SOURCE))))
         {
             String line;
-            while ((line = reader.readLine()) != null)
+            while ((line = reader.readLine()) != null && !line.isBlank())
             {
                 try
                 {
@@ -48,6 +48,10 @@ public class MovieDAO
 
                 }
             }
+        }catch (FileNotFoundException fnfe)
+        {
+            System.out.println("We've done a fucky-wucky");
+            fnfe.printStackTrace();
         }
         return allMovies;
     }
@@ -55,20 +59,19 @@ public class MovieDAO
     /**
      * Reads a movie from a , s
      *
-     * @param t
+     * @param movString
      * @return
      * @throws NumberFormatException
      */
-    private Movie stringArrayToMovie(String t)
+    private Movie stringArrayToMovie(String movString)
     {
-        String[] arrMovie = t.split(",");
+        String[] arrMovie = movString.split(",");
 
         int id = Integer.parseInt(arrMovie[0]);
         int year = Integer.parseInt(arrMovie[1]);
         String title = arrMovie[2];
 
-        Movie mov = new Movie(id, year, title);
-        return mov;
+        return new Movie(id, year, title);
     }
 
     /**

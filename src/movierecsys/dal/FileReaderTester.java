@@ -49,6 +49,8 @@ public class FileReaderTester
             System.out.println(allUser.getId());
         }
         System.out.println("User count: " + allUsers.size());
+
+        new Integer()
     }
 
 
