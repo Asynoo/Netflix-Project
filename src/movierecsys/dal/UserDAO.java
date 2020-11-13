@@ -51,17 +51,17 @@ public class UserDAO
         String[] arrUser = t.split(",");
         String name = arrUser[0];
 
-        User allUsers = new User(name);
-        return allUsers;
+        return new User(name);
     }
     /**
      * Gets a single User by its ID.
      * @param id The ID of the user.
      * @return The User with the ID.
      */
-    public User getUser(int id)
-    {
-        //TODO Get User
+    public User getUser(int id) throws IOException {
+        for(User user: getAllUsers()){
+            if(user.getId() == id) return user;
+        }
         return null;
     }
     
@@ -69,9 +69,8 @@ public class UserDAO
      * Updates a user so the persistence storage reflects the given User object.
      * @param user The updated user.
      */
-    public void updateUser(User user)
-    {
-        //TODO Update user.
+    public void updateUser(User user) throws IOException {
+        //TODO implement
     }
     
 }

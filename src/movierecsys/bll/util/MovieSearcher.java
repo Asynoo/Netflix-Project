@@ -5,7 +5,11 @@
  */
 package movierecsys.bll.util;
 
+import java.util.ArrayList;
 import java.util.List;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import movierecsys.be.Movie;
 
 /**
@@ -14,10 +18,16 @@ import movierecsys.be.Movie;
  */
 public class MovieSearcher
 {
-    public List<Movie> search(List<Movie> searchBase, String query)
+    public ObservableList<String> search(List<Movie> searchBase, String query)
     {
-        //TODO Movie search
-        return null;
+        List<String> searchResults = new ArrayList<>();
+        for (Movie movie:searchBase){
+            if ((movie.getTitle() + " " + movie.getYear()).toLowerCase().contains(query.toLowerCase())){
+                searchResults.add(movie.toString());
+            }
+        }
+
+        return FXCollections.observableList(searchResults);
     }
     
 }
